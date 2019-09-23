@@ -1,8 +1,8 @@
 title: Global Optimization for Geometric Understanding with Provable Guarantees
 description: Title
 sitename: GlobalOptimization@ICCV2019
-baseurl: "https://mit-spark.github.io/GlobalOptimization-ICCV2019/"
-# url: "https://mit-spark.github.io"
+baseurl: "/GlobalOptimization-ICCV2019/"
+url: "https://mit-spark.github.io"
 
 sass:
   sass_dir: /assets/_sass
