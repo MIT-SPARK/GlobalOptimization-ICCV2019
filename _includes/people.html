@@ -1,0 +1,18 @@
+<section class="team" id="team">
+  <div class="container text-center">
+      <div class="row">
+        {% for member in site.data.people %}
+          <div class="col-lg-3 col-md-6">
+              <div class="box">
+                  <div class="image">
+                      <img src="{{ member.image | absolute_url }}" alt="{{member.name}}">
+                  </div>
+                  <h3>{{member.name}}</h3>
+                  <h4>{{member.position}}</h4>
+                  <h4>{{member.affiliation}}</h4>
+              </div>
+          </div>
+        {% endfor %}  
+      </div>
+  </div>
+</section>

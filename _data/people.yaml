@@ -1,0 +1,19 @@
+- name: Luca Carlone
+  image: /assets/images/luca.png
+  position: Assistant Professor
+  affiliation: Massachusetts Institute of Technology
+
+- name: Tat-Jun Chin
+  image: /assets/images/tj.png
+  position: Associate Professor
+  affiliation: The University of Adelaide
+
+- name: Anders Eriksson
+  image: /assets/images/anders.png
+  position: Associate Professor
+  affiliation: University of Queensland
+
+- name: Fredrik Kahl
+  image: /assets/images/fredrik.jpg
+  position: Professor
+  affiliation: Chalmers University of Technology

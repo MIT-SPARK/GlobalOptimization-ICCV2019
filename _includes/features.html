@@ -1,0 +1,15 @@
+<main>
+  {% for feature in site.features %}
+    <hr id='{{ feature.id }}'>
+
+    <section>
+        {% if my_variable != blank %}
+      <img class='{% cycle 'pull-right', 'pull-left' %}' src='{{ feature.image }}'>
+      {% endif %}
+      <h2>{{ feature.heading }}<br /><span>{{ feature.subheading }}</span></h2>
+      <div {% if feature.div_class != nil And feature.div_class != "" %} class='{{feature.div_class}}' {% endif %}>{{ feature.content }}</div>
+    </section>
+  {% endfor %}
+
+  <hr>
+</main>
