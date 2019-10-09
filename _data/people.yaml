@@ -17,3 +17,8 @@
   image: /assets/images/fredrik.jpg
   position: Professor
   affiliation: Chalmers University of Technology
+
+- name: Heng Yang
+  image: /assets/images/heng.jpeg
+  position: PhD Candidate
+  affiliation: Massachusetts Institute of Technology
