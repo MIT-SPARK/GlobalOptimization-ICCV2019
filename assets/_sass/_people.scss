@@ -48,10 +48,13 @@
     font-weight: 400;
     margin-top: 5px;
   }
-  
 }
 
-
-// .team .box:hover {
-//   transform: translateY(-15px);
-// }
+/* centered columns styles */
+.row-centered {
+  text-align:center;
+}
+.col-centered {
+  float: none;
+  display: inline-grid;
+}

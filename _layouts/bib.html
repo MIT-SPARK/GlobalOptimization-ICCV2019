@@ -1,0 +1,27 @@
+---
+---
+
+<div class="text-justify">{{reference}}</div>
+<button class="bibtex" onclick="toggleBibtex($('#{{entry.key}}-bib'))">Bibtex</button>
+ 
+{% if entry.doi %}
+    <a href="{{ entry.doi | prepend: 'http://doi.org/' }}"><input class="doi" type="button" value="doi" /></a>
+{% endif %}
+ 
+{% if entry.pdf %}
+    <a href="{{ entry.pdf | absolute_url }}"><input class="pdf" type="button" value="pdf" /></a>
+{% endif %}
+{% if entry.poster %}
+    <a href="{{ entry.poster | absolute_url }}"><input class="poster" type="button" value="Poster" /></a>
+{% endif %}
+ 
+{% if entry.link %}
+    <a href="{{ entry.link | absolute_url }}"><input class="link" type="button" value="link" /></a>
+{% endif %}
+ 
+{% if entry.code %}
+    <a href="{{ entry.code | absolute_url }}"><input class="code" type="button" value="code" /></a>
+{% endif %}
+<div id="{{entry.key}}-bib" style="display: none;">
+  <pre>{{entry.bibtex}}</pre>
+</div>
