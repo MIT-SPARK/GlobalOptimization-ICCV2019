@@ -15,4 +15,11 @@ install:
 	@bundle install
 
 deploy: build
-	@git push origin `git subtree split --prefix _site master`:gh-pages --force
+	$(eval TMPDIR := $(shell mktemp -d))
+	@cp -r _site/. $(TMPDIR)/.; \
+	 git checkout gh-pages || exit 1;\
+	 rm -rf ./*; \
+	 \cp -r $(TMPDIR)/. .; \
+	 git commit -am "Deployment" || exit 1; \
+	 git push --set-upstream origin gh-pages || exit 1; \
+	 git checkout master
