@@ -33,3 +33,4 @@ exclude:
   - LICENSE.txt
   - CNAME
   - Makefile
+  - resources.bib
