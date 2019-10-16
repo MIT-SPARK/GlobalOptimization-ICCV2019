@@ -13,4 +13,4 @@ div_class: lead
 | 09:45-10:30 | Convex Relaxations for Robust Vision: Harder, Better, Faster, Stronger | [Luca Carlone](https://lucacarlone.mit.edu) |
 | 10:30-11:00 | Coffee Break |  |
 | 11:00-11:45 | Robust Geometric Understanding with Outliers: Algorithms and Provable Guarantees |    [Tat-Jun Chin](https://cs.adelaide.edu.au/~tjchin/doku.php)  |
-| 11:45-12:30 | Hands-on Tutorial on Global Optimization in Matlab | [Heng Yang](https://hankyang.mit.edu) |
+| 11:45-12:30 | [Hands-on Tutorial on Global Optimization in Matlab](https://github.com/MIT-SPARK/GlobalOptimizationTutorial) | [Heng Yang](https://hankyang.mit.edu) |
