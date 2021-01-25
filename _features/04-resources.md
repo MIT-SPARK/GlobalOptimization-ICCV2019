@@ -3,8 +3,6 @@ id: Resources
 name: Resources
 heading: Resources
 div_class: lead
-# subheading: Will Catch Your Eye
-# image: "http://placehold.it/500x500"
 ---
 ### *Hands-on Tutorial on Global Optimization in Matlab*
 We have prepared a detailed hands-on tutorial for using global optimization in Matlab to solve **Rotation Averaging** and **Pose Graph Optimization**. We highly encourage people to read and try out the tutorial. Download the tutorial [here](https://github.com/MIT-SPARK/GlobalOptimizationTutorial).
